@@ -6,6 +6,6 @@ it looks for d8
 it looks for a JVM
 it looks for apksigner
 it looks for a manifest.xml in your project directory
-if it finds all it would compile properly...apksigner option
+if it finds all it would compile properly...apksigner optional
 
 Good luck!
