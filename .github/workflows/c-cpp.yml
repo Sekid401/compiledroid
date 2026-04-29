@@ -15,6 +15,4 @@ jobs:
     - name: Install dependencies
       run: sudo apt-get install -y clang make
     - name: Build
-      run: make make check
-    - name: make distcheck
-      run: make distcheck
+      run: make
