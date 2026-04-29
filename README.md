@@ -39,6 +39,7 @@ What your manifest.xml has to look like (or similar)
 Install some crucial things
 
 apt install ecj d8 aapt2 apksigner
+
 git clone https://github.com/Sekid401/compiledroid
 cd compiledroid
 make && make install
@@ -48,3 +49,7 @@ Good luck!
 Tip: run make && make install to install
 
 Make sure android.jar is in $PREFIX/share/compiledroid
+
+mkdir -p $PREFIX/share/compiledroid/sdk
+curl -L -o $PREFIX/share/compiledroid/sdk/android.jar \
+  https://github.com/Sable/android-platforms/raw/master/android-34/android.jar
