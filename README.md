@@ -17,7 +17,7 @@ myapp/
 └── res/         (optional)
 
 What your manifest.xml has to look like (or similar)
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myapp"
@@ -35,21 +35,25 @@ What your manifest.xml has to look like (or similar)
         </activity>
     </application>
 </manifest>
-
+```
 Install some crucial things
-
+```
 apt install ecj d8 aapt2 apksigner
-
+```
+```
 git clone https://github.com/Sekid401/compiledroid
 cd compiledroid
 make && make install
+```
   
 Good luck!
 
 Tip: run make && make install to install
 
-Make sure android.jar is in $PREFIX/share/compiledroid
+Make sure android.jar is in $PREFIX/share/compiledroid, if it isnt run the command below
 
+```
 mkdir -p $PREFIX/share/compiledroid/sdk
 curl -L -o $PREFIX/share/compiledroid/sdk/android.jar \
   https://github.com/Sable/android-platforms/raw/master/android-34/android.jar
+```
