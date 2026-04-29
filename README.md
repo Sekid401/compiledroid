@@ -9,3 +9,5 @@ it looks for a manifest.xml in your project directory
 if it finds all it would compile properly...apksigner optional
 
 Good luck!
+
+Tip: run make && make install to install
