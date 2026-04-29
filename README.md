@@ -11,3 +11,5 @@ if it finds all it would compile properly...apksigner optional
 Good luck!
 
 Tip: run make && make install to install
+
+Make sure android.jar is in $PREFIX/share/compiledroid
